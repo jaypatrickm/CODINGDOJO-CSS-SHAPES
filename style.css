@@ -1,5 +1,46 @@
+/*
+Message to my homework reviewer:
+The assignment said that we should not use a border generator
+to create these shapes. Does that mean not to use any border styles?
+I'll be honest, the only shape I could create is the circle. 
+I had to look up how to do all the other shapes.
+
+Is there any tips or advice you can give on how to actually think
+about creating the shapes? The idea is just sort of over my head
+and there isn't really any notes in the courses to go off of. 
+Any links or tips would be great..
+Thank you!
+*/
 #square {
 	width: 140px;
 	height: 140px;
 	background: blue;
+}
+#circle {
+	width:150px;
+	height:150px;
+	background: blue;
+	border-radius:100px;
+}
+#triangle {
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+}
+#pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid blue;
+  border-left: 60px solid blue;
+  border-bottom: 60px solid blue;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.spacer {
+	margin: 10px 0;
 }
